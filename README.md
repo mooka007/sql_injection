@@ -22,7 +22,8 @@ Parameterized Statements
 Programming languages talk to SQL databases using database drivers. A driver allows an application to construct and run SQL statements against a database, extracting and manipulating data as needed. Parameterized statements make sure that the parameters (i.e. inputs) passed into SQL statements are treated in a safe manner.
 
 For example, a secure way of running a SQL query in JDBC using a parameterized statement would be:
-`// Connect to the database.
+```
+// Connect to the database.
 Connection conn = DriverManager.getConnection(URL, USER, PASS);
 
 // Construct the SQL statement we want to run, specifying the parameter.
@@ -41,4 +42,4 @@ while (results.next())
 {
     // ...do something with the data returned.
 }
-`
+```
