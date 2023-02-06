@@ -69,7 +69,7 @@ You should always use parameterized statements where available, they are your nu
 
 You can see more examples of parameterized statements in various languages in the code samples below. 
 
-#### Object Relational Mapping
+### Object Relational Mapping
 
 Many development teams prefer to use Object Relational Mapping (ORM) frameworks to make the translation of SQL result sets into code objects more seamless. ORM tools often mean developers will rarely have to write SQL statements in their code – and these tools thankfully use parameterized statements under the hood.
 
